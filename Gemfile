@@ -29,6 +29,8 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'devise'
 
+gem 'kaminari', '~> 0.16.3' #used for backend paginations
+gem 'api-pagination', '~> 4.1.1' #api pagination
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
