@@ -10,5 +10,9 @@
   <%= @book.description %>
 </p>
 
+<% @book.authors.each do |a|%>
+	<%= a.first_name %> <%= a.family_name %><br>
+<% end %>
+
 <%= link_to 'Edit', edit_book_path(@book) %> |
 <%= link_to 'Back', books_path %>
